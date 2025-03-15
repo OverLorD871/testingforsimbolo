@@ -1,6 +1,9 @@
 import streamlit as st
 import numpy as np
 
+st.title ('Calculator Demo')
+st.caption ('This is The Calculator App DEMO further enhancements are needed.')
+
 number = st.number_input('Insert a Number')
 st.write('The Current Number is', number)
 
