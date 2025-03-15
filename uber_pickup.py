@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.title("Uber Pickups in NWY")
+st.title("Uber Pickups in New York")
 
 data_column = 'date/time'
 data_url = r'E:\Simbolo Ai class\uber-raw-data-sep14.csv'
